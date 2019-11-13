@@ -55,6 +55,16 @@ figure {
   grid-template-columns: 75%;
 }
 
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0px;
+}
+
 button, input, select, textarea {
   display: block;
   font-family: inherit;
